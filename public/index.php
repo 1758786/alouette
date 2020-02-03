@@ -1,3 +1,7 @@
+<?php
+	include("../donnees.inc.php");
+	include("../Alouette.php");
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -9,6 +13,9 @@
 
 <body>
 	<div id="app">
+
+		<?php echo Alouette::actionMembre('battre', 'gros orteille'); ?>
+
 		<header>Ma ritournelle</header>
 		<footer>Intégration Web 3</footer>
 		<nav>
